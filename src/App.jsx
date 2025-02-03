@@ -8,7 +8,7 @@ import Projects from './components/project';
 import Footer from './components/Footer';
 import ContactMe from './components/contact';
 
-function App() {
+function App() { 
   const aboutRef = useRef(null);
   const experianceRef = useRef(null);
   const projectsRef = useRef(null);
