@@ -39,7 +39,7 @@ function ContactMe() {
   };
 
   return (
-    <div className="bg-gray-900 text-white py-16 px-6 md:px-16">
+    <div id="contact" className="bg-gray-900 text-white py-16 px-6 md:px-16">
       <h2 className="text-3xl md:text-4xl font-bold text-center">Get in Touch</h2>
       <p className="text-center text-gray-400 mt-2">
         A MERN Stack Developer.

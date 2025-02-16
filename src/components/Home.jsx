@@ -1,5 +1,6 @@
 import React from "react";
 import avatar from "../assets/farhan.png";
+import { Link } from "react-scroll";
 import cv from "../assets/Farhan's Resume MERN Stack Developer.pdf"
 
 function Home() {
@@ -17,13 +18,20 @@ function Home() {
         <a href={cv} 
         target="_blank" 
         rel="noopener noreferrer">
-        <button className="mt-4 md:mt-6 text-white py-2 mx-2 px-4 md:text-lg hover:opacity-85 transition duration-300 hover:scale-105 font-semibold rounded-3xl bg-emerald-600">
+        <button className="mt-4 md:mt-6 text-white py-2 mx-2 px-4 md:text-lg hover:opacity-85 transition duration-300 hover:scale-105 font-semibold rounded-3xl bg-emerald-600 cursor-pointer">
           View CV
         </button>
         </a>
-        <button className="mt-4 md:mt-6 text-white py-2 px-4 md:text-lg hover:opacity-85 transition duration-300 hover:scale-105 font-semibold rounded-3xl bg-emerald-600">
+        <button className="mt-4 md:mt-6 text-white py-2 px-4 md:text-lg hover:opacity-85 transition duration-300 hover:scale-105 font-semibold rounded-3xl bg-emerald-600 cursor-pointer">
+        <Link
+          to="contact"
+          smooth={true}
+          duration={500}
+          >
           Contact Me
+        </Link>
         </button>
+          
       </div>
 
       {/* Right Section (Image) */}

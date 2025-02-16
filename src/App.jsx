@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="bg-gray-900 h-auto w-full overflow-hidden">
-      <Navbar 
+      <Navbar
         scrollToSection={scrollToSection} 
         aboutRef={aboutRef} 
         experianceRef={experianceRef} 
